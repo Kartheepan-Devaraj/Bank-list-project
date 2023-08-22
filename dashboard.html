@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="dashboard.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300&family=Crimson+Text:wght@600&family=Dosis:wght@300&family=PT+Sans&family=Raleway:wght@500&family=Roboto:wght@500&display=swap" rel="stylesheet">
+<body>
+    <div id="container1">
+      <img id="bitcoin" src="images\bitcoin.png" alt="" height="40px" width="40px" />
+      <div id="profile">
+        <img src="images\profile.png" alt="" height="100px" width="100px" />
+      </div>
+      <h2 id="crest">CREST</h2>
+    </div>
+
+    <div id="message">
+      <h4>WELCOME</h4>
+      <div id="welcome-msg"></div>
+    </div>
+    <div class="line"></div>
+
+    <div id="dashboard">
+      <div>
+        <img src="images\menu.png" alt="" height="20" width="20" />
+      </div>
+      <div id="text">
+        <h2>Dashboard</h2>
+      </div>
+    </div>
+
+    <div id="transaction">
+      <div>
+        <img src="images\transaction (2).png" alt="" height="22" width="22" />
+      </div>
+      <div id="text">
+        <h2>Transaction</h2>
+      </div>
+    </div>
+
+    <div id="settings">
+      <div>
+        <img src="images\gear.png" alt="" height="22" width="22" />
+      </div>
+      <div id="text">
+        <h2>Settings</h2>
+      </div>
+    </div>
+
+    <div id="logout">
+      <div>
+        <img src="images\switch.png" alt="" height="22" width="22" />
+      </div>
+      <div id="text">
+        <a  id="logout" href="index.html"><h2>Logout</h2></a>
+      </div>
+    </div>
+
+    <div id="balance">
+      <div id="card">
+        <h2>Balance</h2>
+        <h3 id="newMsg">$0</h3>
+        <h4 id="number">XXXX XXXX XXXX</h4>
+        <img
+          id="mscard"
+          src="images\Mastercard.png"
+          alt=""
+          height="20px"
+          width="40px"
+        />
+      </div>
+    </div>
+
+    <div id="deposit">
+      <div id="card1">
+        <h2>Deposit</h2>
+        <h3 id="new-deposit">$0</h3>
+        <h4 id="number">XXXX XXXX XXXX</h4>
+        <img
+          id="mscard"
+          src="images\Mastercard.png"
+          alt=""
+          height="20px"
+          width="40px"
+        />
+      </div>
+    </div>
+
+    <div id="withdrawal">
+      <div id="card2">
+        <h2>Withdrawal</h2>
+        <h3 id="new-withdrawal">$0</h3>
+        <h4 id="number">XXXX XXXX XXXX</h4>
+        <img
+          id="mscard"
+          src="images\Mastercard.png"
+          alt=""
+          height="20px"
+          width="40px"
+        />
+      </div>
+    </div>
+
+    <div id="line1"></div>
+
+    <!-- <div id="history">
+      <table>
+        <tr>
+          <td>
+            <img src="transaction.png" alt="Image" height="30px" width="30px" />
+          </td>
+          <td><h2>&nbsp; Credited&nbsp; &nbsp;&nbsp;</h2></td><br>
+          <tr>&nbsp; &nbsp;29.12.2002</tr>
+          <td><h2> &nbsp; &nbsp; &nbsp; 0</h2></td>
+        </tr>
+      </table>
+    </div> -->
+
+    <!-- <div id="history">
+    <table>
+      <tr>
+        <td> <img src="transaction (1).png" alt="Image" height="40px" width="35px" /></td>
+        <td><h2>&nbsp; Credited&nbsp; &nbsp;&nbsp;</h2></td>
+        <td><h3>29.12.2001</h3></td>
+        <td><h2>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;0</h2></td>
+      </tr>
+    </table>
+    </div> -->
+
+
+    <div id="last">
+      <h2>Last Transactions</h2>
+    </div>
+
+
+
+
+
+    <div id="depositMoney">
+      <h2>DEPOSIT</h2>
+      <input
+        type="text"
+        id="deposit-amount"
+        placeholder="Enter Amount"
+      /><br /><br /><br />
+      <button onclick="deposit()" id="enter1">
+        <img src="images\enter.png" alt="" height="40px" width="40px" />
+      </button>
+    </div>
+
+    <div id="transferMoney">
+      <h2>TRANSFER</h2>
+      <input
+        type="text"
+        id="transfer-id"
+        placeholder="Account Number"
+      /><br /><br />
+      <input
+        type="text"
+        id="transfer-amount"
+        placeholder="Enter Amount"
+      /><br /><br />
+      <button id="enter" onclick="transfer()">
+        <img src="images\enter.png" alt="" height="40px" width="40px" />
+      </button>
+    </div>
+
+    <div id="summary"></div>
+
+    <!-- <div id="send">
+      <div><h3>Send Money</h3></div>
+      <div></div>
+    </div> -->
+
+    <div id="wallet">
+      <h2>
+        Credit Score <br />
+        770/800
+      </h2>
+
+      <div id="credit">
+        <img src="images\credit.png" alt="" height="60" width="60" />
+      </div>
+    </div>
+
+    <div id="line2"></div>
+<div id="search">
+  <input  id="any"type="text" value="" placeholder="Search Anything..." >
+  <img id="icon"src="images\search.png" alt="" height="18px" width="18px"> 
+
+</div>
+
+<div id="notification">
+  <img src="images\ringing.png" alt=""  height="25px" width="25px">
+</div>
+   
+<div id="filter">
+  <img src="images\filter.png" alt="" height="25px" width="25px">
+</div>
+
+    <div id="adVideo">
+    <video autoplay muted loop>
+    <source src="https://cdn.dribbble.com/userupload/2795373/file/original-d3d85989967065b900302aa3255b894a.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+    </div>
+    <script src="home.js"></script>
+  </body>
+</html>

@@ -1,0 +1,466 @@
+#container1 {
+  background-color: black;
+  color: aliceblue;
+  width: 13%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+#bitcoin {
+  position: absolute;
+  top: 4.7%;
+  left: 13%;
+  font-family: Bebas Neue;
+}
+
+#crest {
+  position: absolute;
+  left: 35%;
+  top: 3.4%;
+}
+
+#profile {
+  position: absolute;
+  top: 15.5%;
+  left: 20%;
+  /* border: 3px solid white;
+  border-radius: 5%; */
+}
+.line {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  width: 15%;
+  height: 1px;
+  background-color: white;
+}
+
+#balance {
+  position: absolute;
+  color: white;
+  top: 25%;
+  left: 16.5%;
+  background-image: url(images/green.jpg);
+  padding: 1px 50px 1px 50px;
+  border-radius: 13px;
+  /* width: 10%;
+  height: 60%; */
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+
+#new-balance {
+  position: absolute;
+  left: -20%;
+}
+
+#card {
+  position: relative;
+  top: 0%;
+  left: 0%;
+}
+
+#card h2 {
+  position: relative;
+  left: -20%;
+  font-size: 20px;
+}
+
+#card h3 {
+  position: relative;
+  left: 0%;
+  font-size: 20px;
+}
+
+#number {
+  position: relative;
+  left: -20%;
+  font-size: 15px;
+}
+
+#mscard {
+  position: absolute;
+  top: 83%;
+  left: 95%;
+}
+
+#deposit {
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 16.5%;
+  background-image: url(images/blue.jpg);
+  padding: 1px 50px 1px 50px;
+  border-radius: 13px;
+  /* width: 10%;
+  height: 60%; */
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+
+#card1 {
+  position: relative;
+  top: 0%;
+  left: 0%;
+}
+
+#card1 h2 {
+  position: relative;
+  left: -20%;
+  font-size: 20px;
+}
+
+#card1 h3 {
+  position: relative;
+  left: -20%;
+  font-size: 20px;
+}
+
+#number {
+  position: relative;
+  left: -20%;
+  font-size: 15px;
+}
+
+#mscard {
+  position: absolute;
+  top: 83%;
+  left: 95%;
+}
+
+#withdrawal {
+  position: absolute;
+  color: white;
+  top: 76%;
+  left: 16.5%;
+  background-image: url(images/green.jpg);
+  padding: 1px 50px 1px 50px;
+  border-radius: 13px;
+  font-family: "Bricolage Grotesque", sans-serif;
+  /* width: 10%;
+    height: 60%; */
+}
+
+#card2 {
+  position: relative;
+  top: 0%;
+  left: 0%;
+}
+
+#card2 h2 {
+  position: relative;
+  top: 0%;
+  left: -20%;
+  font-size: 20px;
+}
+
+#card2 h3 {
+  position: relative;
+  left: -20%;
+  font-size: 20px;
+}
+
+#number {
+  position: relative;
+  left: -20%;
+  font-size: 15px;
+}
+
+#mscard {
+  position: absolute;
+  top: 83%;
+  left: 95%;
+}
+
+#history {
+  /* position: absolute;
+  left: 50%;
+  top: 10%; */
+  /* background-color: #39c436; */
+  font-size: small;
+  padding-left: 40px;
+  font-family: "Dosis", sans-serif;
+}
+
+#dep {
+  position: absolute;
+  top: 0%;
+  left: 0px;
+}
+
+#amount {
+  position: absolute;
+  top: 0%;
+  left: 270px;
+}
+
+#depositMoney {
+  background-color: #beb2a9;
+  position: absolute;
+  top: 45%;
+  left: 82%;
+  padding: 1px 20px 20px 20px;
+  /* background-image: url(perfect-green-grass.jpg); */
+  border-radius: 5px;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+
+#transferMoney {
+  background-color: #beb2a9;
+  position: absolute;
+  top: 70%;
+  left: 82%;
+  padding: 1px 20px 35px 20px;
+  /* background-image: url(deposit.jpeg); */
+  border-radius: 5px;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+
+input {
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  height: 20px;
+}
+
+#enter {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 75%;
+  left: 35%;
+  cursor: pointer;
+}
+
+#enter1 {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 65%;
+  left: 35%;
+  cursor: pointer;
+}
+
+#summary {
+  position: absolute;
+  top: 32%;
+  left: 38%;
+  background-color: white;
+  /* background-color: white; */
+  border: 1px solid rgb(179, 167, 167);
+  border-radius: 10px;
+  padding: 20px;
+  height: 450px;
+  width: 500px;
+  overflow: scroll;
+  scroll-behavior: smooth;
+}
+
+#message {
+  position: absolute;
+  color: white;
+  background-color: black;
+  top: 31%;
+  left: 2%;
+  text-align: center;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#dashboard {
+  position: absolute;
+  color: white;
+  left: 2%;
+  top: 58%;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-size: 12px;
+  align-items: center;
+  cursor: pointer;
+}
+
+#text {
+  position: absolute;
+  top: -63%;
+  left: 150%;
+}
+
+/* #dashboard:hover {
+  background-color: white;
+  color: black;
+} */
+
+/* #text {
+  background-color: white;
+  color: black;
+} */
+
+#transaction {
+  position: absolute;
+  color: white;
+  left: 1.7%;
+  top: 65%;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-size: 12px;
+  align-items: center;
+  cursor: pointer;
+}
+
+#settings {
+  position: absolute;
+  color: white;
+  left: 1.8%;
+  top: 72%;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-size: 12px;
+  align-items: center;
+  cursor: pointer;
+}
+
+#logout {
+  position: absolute;
+  color: white;
+  left: 2.3%;
+  top: 94%;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-size: 12px;
+  align-items: center;
+  cursor: pointer;
+}
+
+#wallet {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  left: 14.8%;
+  top: 2%;
+  padding: 0px 15px 10px 15px;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: large;
+  border: 1px solid #20dad8;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 16%;
+  background-color: #c2ffff;
+}
+
+#line1 {
+  position: absolute;
+  top: 0%;
+  left: 35%;
+  width: 2px;
+  height: 100%;
+  background-color: rgb(18, 18, 18);
+}
+
+#credit {
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+#add {
+  position: absolute;
+  left: 35.5%;
+  top: 0%;
+  /* color: black;
+  background-color: #fff3c7;
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+  font-size: small;
+  border-radius: 5%; */
+}
+
+#adVideo {
+  position: absolute;
+  left: 76.3%;
+  top: 0%;
+}
+
+#adVideo video {
+  position: relative;
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+
+#line2 {
+  position: absolute;
+  top: 0%;
+  left: 76%;
+  width: 2px;
+  height: 100%;
+  background-color: rgb(18, 18, 18);
+}
+#search {
+  position: absolute;
+  top: 5%;
+  left: 38%;
+}
+
+#any {
+  border: 1px solid rgb(179, 167, 167);
+  background-color: white;
+  text-align: start;
+  border-radius: 10px;
+  padding-left: 30px;
+  height: 30px;
+  width: 180%;
+  font-size: 15px;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+
+#icon {
+  position: absolute;
+  left: 5%;
+  top: 21%;
+}
+
+#notification {
+  position: absolute;
+  left: 72%;
+  top: 5.9%;
+}
+
+/* #his-img {
+  position: absolute;
+  margin-top: 15%;
+  left: -80%;
+}
+
+#his-date {
+  position: absolute;
+  top: 41%;
+  left: 12%;
+}
+
+#his-amount {
+  position: absolute;
+  top: 15%;
+  left: 200%;
+} */
+
+#last {
+  position: absolute;
+  top: 19%;
+  left: 40%;
+  font-family: "Dosis", sans-serif;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+#filter {
+  position: absolute;
+  left: 69%;
+  top: 23%;
+}
+
+#logout {
+  text-decoration: none;
+}
